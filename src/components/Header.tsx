@@ -110,7 +110,7 @@ export default function Header() {
             <Sparkles className="w-5 h-5 text-white animate-pulse" />
           </div>
           <span className="font-heading font-extrabold text-xl lg:text-2xl tracking-tight text-secondary">
-            Happy <span className="text-primary">Maids</span>
+            Happy <span className="text-primary">Cleaning</span>
           </span>
         </Link>
 
@@ -237,7 +237,7 @@ export default function Header() {
       >
         <div className="flex items-center justify-between border-b border-slate-100 pb-4">
           <span className="font-heading font-extrabold text-xl text-secondary">
-            Happy <span className="text-primary">Maids</span>
+            Happy <span className="text-primary">Cleaning</span>
           </span>
           <button onClick={() => setIsOpen(false)} aria-label="Close menu">
             <X className="w-6 h-6 text-slate-500" />

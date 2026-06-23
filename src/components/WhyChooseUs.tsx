@@ -68,7 +68,7 @@ export default function WhyChooseUs() {
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         <div className="text-center max-w-2xl mx-auto mb-20">
           <span className="text-primary font-bold text-xs uppercase tracking-widest block mb-2">
-            The Happy Maids Edge
+            The Happy Cleaning Edge
           </span>
           <h2 className="font-heading font-black text-3xl sm:text-4xl text-secondary">
             Why Discerning Homeowners Choose Us

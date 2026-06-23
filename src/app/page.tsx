@@ -30,7 +30,7 @@ if (typeof window !== "undefined") {
 }
 
 const reviews = [
-  { name: "Sarah J.", role: "Homeowner", rating: 5, text: "Happy Maids did an outstanding job with my move-out cleaning. Got my entire deposit back!" },
+  { name: "Sarah J.", role: "Homeowner", rating: 5, text: "Happy Cleaning did an outstanding job with my move-out cleaning. Got my entire deposit back!" },
   { name: "David M.", role: "Airbnb Host", rating: 5, text: "Prompt, detailed, and professional. My guests always compliment the cleanliness of my rental." },
   { name: "Jessica R.", role: "Busy Parent", rating: 5, text: "Having them come bi-weekly has given me my weekends back. Best decision I've made all year!" },
   { name: "Robert L.", role: "Office Manager", rating: 5, text: "Our staff noticed the difference immediately. Pristine desks, spotless floors. Highly recommend." },
@@ -61,7 +61,7 @@ export default function HomePage() {
   // Show discount popup on load
   useEffect(() => {
     if (preloader) return;
-    const hasSeenPopup = sessionStorage.getItem("hasSeenHappyMaidsDiscount");
+    const hasSeenPopup = sessionStorage.getItem("hasSeenHappyCleaningDiscount");
     if (!hasSeenPopup) {
       const timer = setTimeout(() => {
         setDiscountPopup(true);
@@ -71,7 +71,7 @@ export default function HomePage() {
   }, [preloader]);
 
   const closePopup = () => {
-    sessionStorage.setItem("hasSeenHappyMaidsDiscount", "true");
+    sessionStorage.setItem("hasSeenHappyCleaningDiscount", "true");
     setDiscountPopup(false);
   };
 
@@ -122,7 +122,7 @@ export default function HomePage() {
               <Sparkles className="w-8 h-8 text-white animate-spin-slow" />
             </div>
             <span className="font-heading font-extrabold text-2xl tracking-widest text-white/90">
-              HAPPY MAIDS
+              HAPPY CLEANING
             </span>
             <div className="w-24 h-1 bg-slate-800 rounded-full overflow-hidden mt-2">
               <div className="h-full bg-primary animate-loading-bar" />
@@ -146,7 +146,7 @@ export default function HomePage() {
             </div>
             <h3 className="font-heading font-extrabold text-3xl mb-2">First-Time Client?</h3>
             <p className="text-slate-350 text-sm mb-6 max-w-md mx-auto leading-relaxed font-sans">
-              Welcome to Happy Maids! All new clients receive an automatic <span className="text-primary font-bold">10% discount</span> on their initial professional cleaning service. No promo codes required!
+              Welcome to Happy Cleaning! All new clients receive an automatic <span className="text-primary font-bold">10% discount</span> on their initial professional cleaning service. No promo codes required!
             </p>
             <div className="flex flex-col gap-3 font-sans">
               <Link
@@ -192,7 +192,7 @@ export default function HomePage() {
             </div>
             
             <h1 className="hero-anim-item font-heading font-black text-4xl sm:text-5xl lg:text-6xl tracking-tight text-secondary leading-tight">
-              We Sweep. You <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary-dark">Smile</span>. Experience Happy Maids.
+              We Sweep. You <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary-dark">Smile</span>. Experience Happy Cleaning.
             </h1>
             
             <p className="hero-anim-item text-slate-500 text-base sm:text-lg max-w-xl font-medium leading-relaxed font-sans">
@@ -249,7 +249,7 @@ export default function HomePage() {
               <div className="relative w-full h-full rounded-full overflow-hidden">
                 <Image
                   src="/clean_living_room.png"
-                  alt="Spotless Happy Maids Living Room"
+                  alt="Spotless Happy Cleaning Living Room"
                   fill
                   priority
                   className="object-cover hover:scale-105 transition-transform duration-700"

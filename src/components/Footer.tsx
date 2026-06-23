@@ -15,7 +15,7 @@ export default function Footer() {
               <Sparkles className="w-4 h-4 text-white" />
             </div>
             <span className="font-heading font-extrabold text-xl tracking-tight">
-              Happy <span className="text-primary">Maids</span>
+              Happy <span className="text-primary">Cleaning</span>
             </span>
           </Link>
           <p className="text-slate-400 text-sm leading-relaxed max-w-xs font-sans">
@@ -36,7 +36,7 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Column 2: Pages */}
+        {/* Pages */}
         <div className="flex flex-col gap-4">
           <h4 className="font-heading font-bold text-lg text-white border-l-4 border-primary pl-3">
             Pages
@@ -65,7 +65,7 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Column 3: Services */}
+        {/* Services */}
         <div className="flex flex-col gap-4">
           <h4 className="font-heading font-bold text-lg text-white border-l-4 border-primary pl-3">
             Services
@@ -81,7 +81,7 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Column 4: Contact */}
+        {/* Contact */}
         <div className="flex flex-col gap-4">
           <h4 className="font-heading font-bold text-lg text-white border-l-4 border-primary pl-3">
             Contact Us
@@ -102,8 +102,8 @@ export default function Footer() {
             </li>
             <li className="flex items-center gap-3">
               <Mail className="w-5 h-5 text-primary shrink-0" />
-              <a href="mailto:info@happymaids.com" className="hover:text-primary transition-colors">
-                info@happymaids.com
+              <a href="mailto:info@happycleaning.com" className="hover:text-primary transition-colors">
+                info@happycleaning.com
               </a>
             </li>
           </ul>
@@ -112,7 +112,7 @@ export default function Footer() {
 
       {/* Bottom Bar */}
       <div className="max-w-7xl mx-auto px-6 border-t border-slate-800 pt-8 flex flex-col md:flex-row items-center justify-between text-xs text-slate-500 gap-4">
-        <span>&copy; {new Date().getFullYear()} Happy Maids. All rights reserved.</span>
+        <span>&copy; {new Date().getFullYear()} Happy Cleaning. All rights reserved.</span>
         <span>
           Powered by{" "}
           <a

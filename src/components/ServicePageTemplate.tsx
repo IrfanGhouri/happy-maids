@@ -440,7 +440,7 @@ export default function ServicePageTemplate(props: ServicePageTemplateProps) {
           <div className="lg:col-span-5 flex flex-col gap-6 text-left reveal-item">
             <span className="text-primary font-bold text-xs uppercase tracking-widest block font-sans">Visual proof</span>
             <h2 className="font-heading font-black text-3xl sm:text-4xl text-secondary tracking-tight">
-              See the Magical Happy Maids Difference
+              See the Magical Happy Cleaning Difference
             </h2>
             <p className="text-slate-650 text-sm leading-relaxed font-medium">
               We don't just surface-wipe. We dig deep to erase dust, grime, and grease. Use the comparison slider on the right to view a side-by-side demonstration of our cleaning outcomes.

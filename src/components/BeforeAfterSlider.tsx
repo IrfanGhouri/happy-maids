@@ -163,7 +163,7 @@ export default function BeforeAfterSlider() {
           <div className="absolute inset-0 z-0">
             <Image
               src="/dirty_living_room.png"
-              alt="Messy House Before Happy Maids"
+              alt="Messy House Before Happy Cleaning"
               fill
               sizes="(max-width: 1200px) 100vw, 1200px"
               priority
@@ -185,7 +185,7 @@ export default function BeforeAfterSlider() {
           >
             <Image
               src="/clean_living_room.png"
-              alt="Spotless House After Happy Maids"
+              alt="Spotless House After Happy Cleaning"
               fill
               sizes="(max-width: 1200px) 100vw, 1200px"
               priority

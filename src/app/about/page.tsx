@@ -31,7 +31,7 @@ export default function AboutPage() {
             Our Story & Values
           </div>
           <h1 className="about-anim-item font-heading font-black text-4xl sm:text-5xl lg:text-6xl text-secondary tracking-tight leading-tight">
-            About Happy Maids
+            About Happy Cleaning
           </h1>
           <p className="about-anim-item text-slate-500 text-sm sm:text-base md:text-lg max-w-2xl leading-relaxed font-medium font-sans">
             We are redefining home care with eco-safe techniques, transparent flat pricing, and thoroughly vetted cleaning specialists so you can buy back your weekends.
@@ -47,7 +47,7 @@ export default function AboutPage() {
           <div className="about-anim-item lg:col-span-6 relative aspect-[4/3] rounded-[36px] overflow-hidden border-8 border-white shadow-xl bg-slate-100 shrink-0">
             <Image
               src="/about_team.png"
-              alt="Happy Maids cleaning professionals"
+              alt="Happy Cleaning professionals"
               fill
               className="object-cover hover:scale-105 transition-transform duration-700"
             />
@@ -61,7 +61,7 @@ export default function AboutPage() {
             <div className="w-12 h-1 bg-primary rounded-full" />
             
             <p className="text-slate-500 text-sm sm:text-base leading-relaxed font-sans">
-              At Happy Maids, we recognize that letting a cleaner into your private sanctuary is an act of trust. That's why we don't just send housekeepers; we send vetted, trained professionals who take pride in rendering spaces spotless.
+              At Happy Cleaning, we recognize that letting a cleaner into your private sanctuary is an act of trust. That's why we don't just send housekeepers; we send vetted, trained professionals who take pride in rendering spaces spotless.
             </p>
             <p className="text-slate-500 text-sm sm:text-base leading-relaxed font-sans">
               Founded locally in Des Plaines, IL and expanding across Chicago, our core commitment remains unchanged: utilizing certified green, non-toxic cleaning products to ensure your living spaces are sanitarily safe for infants, toddlers, and pets.

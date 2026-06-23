@@ -18,7 +18,7 @@ const plusJakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Happy Maids | Professional & Eco-Friendly Home Cleaning Services",
+  title: "Happy Cleaning | Professional & Eco-Friendly Home Cleaning Services",
   description:
     "Des Plaines & Chicago's top choice for home, vacation rental, commercial, move-in, out-cleaning, post-construction, and basement cleaning. 100% satisfaction guaranteed.",
   robots: {
